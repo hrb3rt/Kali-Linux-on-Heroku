@@ -1,4 +1,4 @@
-FROM kalilinux/kali-rolling
+FROM kalilinux/kali-last-release
 
 LABEL AboutImage "Kali_Linux_Novnc"
 
@@ -40,7 +40,6 @@ RUN	echo 'Installing base files, this may take a few minutes...' && \
 # WARN!!!Don't Remove (sudo,nodejs,npm,x1vnc,xvfb,supervisor,build-essential,software-properties-common,apt-transport-https,pcmanfm) or the kali linux will be unstable
 # Thank you For Using My Repo :D
 	apt-get install -y \
-	tzdata \
 	software-properties-common \
 	apt-transport-https \
 	wget \

@@ -1,4 +1,4 @@
-FROM kalilinux/kali
+FROM kalilinux/kali-rolling
 
 LABEL AboutImage "Kali_Linux_Novnc"
 
@@ -54,6 +54,7 @@ RUN	echo 'Installing base files, this may take a few minutes...' && \
 	firefox-esr \
 	build-essential \
 	ssh \
+	openvpn \
 	nodejs \
 	npm \
 	vim-gtk3 \

@@ -23,7 +23,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
 	LC_ALL=C.UTF-8 \
-	TZ="Asia/Kolkata" \
+	TZ="Europe/Warsaw" \
 #StartXfce4
         UI_COMMAND=/usr/bin/startxfce4
 
